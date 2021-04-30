@@ -2,7 +2,7 @@
 baseurl: https://thestatsgu.ru/cv/
 publishDir: docs/cv
 languageCode: en-us
-title: Bi Cheng Wu CV
+title: "TheStatsGuru - CV"
 theme: hugo-orbit-theme
 googleAnalytics: G-RYQM737XWN
 
