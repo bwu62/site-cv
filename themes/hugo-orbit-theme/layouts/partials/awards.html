@@ -1,0 +1,10 @@
+            <div class="education-container container-block">
+                <h2 class="container-block-title">{{ i18n "awards" }}</h2>
+				{{ range .Site.Params.awards.list }}
+                <div class="item">
+                    <h4 class="degree">{{ .award }}</h4>
+                    <h5 class="meta">{{ .meta }}</h5>
+                    <div class="time">{{ .dates }}</div>
+                </div><!--//item-->
+				{{ end }}
+            </div><!--//awards-container-->

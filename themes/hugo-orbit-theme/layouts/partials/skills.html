@@ -3,7 +3,11 @@
                 <div class="skillset">
 				{{ range .Site.Params.skills.list }}
                     <div class="item">
+                      {{ if eq .skill "latex" }}
+                        <h3 class="level-title">{{ partial "latex.html" }}</h3>
+                      {{ else }}
                         <h3 class="level-title">{{ .skill }}</h3>
+                      {{ end }}
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="{{ .level }}">
                             </div>
@@ -12,3 +16,5 @@
                 {{ end }}
                 </div>
             </section><!--//skills-section-->
+
+

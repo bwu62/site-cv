@@ -1,0 +1,186 @@
+# Page settings
+baseurl: http://thestatsgu.ru/cv
+publishDir: docs/cv
+languageCode: en-us
+title: Bi Cheng Wu CV
+theme: hugo-orbit-theme
+googleAnalytics: G-RYQM737XWN
+
+# Do not build files for websites. Need them? Set to false
+disableRSS: yes
+disableSitemap: yes
+disable404: yes
+
+params:
+
+  # Theme styles
+  # The original template comes with 6 colour schemes. You may choose styles below.
+  # "styles.css", "styles-2.css", "styles-3.css", ..., "styles-6.css"
+  # are available. Also the source LESS files are included so
+  # it’s quick and easy to change the styling and colour scheme.
+  styles: styles-4.css
+  
+  profile:
+    name: Bi Cheng Wu
+    tagline: "Associate Lecturer -- Statistics"
+    avatar: profile.png
+  
+  contact:
+    enable: true
+    list:
+      - class: website
+        icon: fa-globe
+        url: 'https://thestatsgu.ru/'
+        title: thestatsgu.ru
+      - class: email
+        icon: fa-envelope
+        url: 'mailto:bichengwu@thestatsgu.ru'
+        title: bichengwu@thestatsgu.ru
+      - class: linkedin
+        icon: fa-linkedin
+        url: 'https://www.linkedin.com/in/bwu62/'
+        title: linkedin.com/in/bwu62
+      - class: github
+        icon: fa-github
+        url: 'https://github.com/bwu62/'
+        title: github.com/bwu62
+  education:
+    enable: true
+    title: Education
+    list:
+      - degree: MS in Statistics
+        college: University of Wisconsin—Madison
+        dates: 2017-2020
+      - degree: BS in Math, Physics
+        college: University of Rochester
+        dates: 2013-2017
+  awards:
+    enable: true
+    title: Awards
+    list: 
+      - award: TA Excellence Award (runner-up)
+        meta: UW—Madison Stats Dept.
+        dates: 2018
+      - award: ΦBK (Phi Beta Kappa) Honor Society Induction
+        meta: University of Rochester
+        dates: 2017
+      - award: Undergraduate Student Research Award
+        meta: NSERC (Canada)
+        dates: 2016
+      - award: Wilder Trustee Scholarship
+        dates: 2013
+  language:
+    enable: true
+    title: Languages
+    list:
+      - language: English
+        level: Native
+      - language: Mandarin
+        level: Native
+  interests:
+    enable: true
+    title: Interests
+    list:
+      - interest: Archery
+      - interest: Backgammon
+      - interest: Foreign films
+      - interest: Skateboarding
+  summary:
+    enable: true
+    icon: fa-user
+    title: Career Profile
+    summary: >-
+      Statistician seeking full-time employment in a data-analytical position. 
+      Experience in model development/selection, machine learning, 
+      time-series data, survival analysis, high-throughput/performance 
+      (HTC/HPC) statistical computing, nonparametric methods, and more. 
+      Excellent quantitative communication skills, thrives in 
+      collaborative working environments, and adapts well to change.
+  experiences:
+    enable: true
+    icon: fa-briefcase
+    title: Experiences
+  jobs:
+    list:
+      - position: Associate Lecturer
+        dates: 2021 - present
+        company: 'University of Wisconsin—Madison'
+        details: >-
+          Codeveloping and teaching new statistics course for data science students.
+          Topics include estimation, testing, Monte Carlo methods, regression, 
+          decision trees & random forests, multiple testing, etc.    
+              
+          Duties include writing new course materials, facilitating online teaching,
+          monitoring student engagement, coordinating TAs, and overseeing grading.
+      - position: Teaching Assistant
+        dates: 2017 – 2020
+        company: University of Wisconsin—Madison
+        details: >-
+          Led student workshops for various high-level statistical topics, 
+          such as random variables, hypotheses testing, experiment design, 
+          and statistical computing in R through a combination of lectures, 
+          interactive discussions, and collaborative exercises,    
+              
+          Assisted instructors with course planning, grade management,
+          technical support, and other administrative duties.    
+              
+          2018 Graduate Teaching Assistant Award Honorable Mention
+      - position: Research Assistant
+        dates: 2015 - 2017
+        company: University of Rochester
+        details: >-
+          (with Segev BenZvi)
+          Involved in the High-Altitude Water Cherenkov (HAWC) experiment (gamma/cosmic ray detector), and IceCube (Antarctic neutrino observatory) on event detection related projects, including Monte-Carlo simulations, real-time signal processing, and machine learning classifiers.
+          Duties included working with collaborators to visualize data, testing new methods of analysis, and drafting & presenting reports of findings to researchers and colleagues.
+      - position: Research Intern
+        dates: 2016 summer
+        company: University of British Columbia
+        details: >-
+          (with Harvey Richer, PhD. at )
+          Studied Hubble Space Telescope data, including processing raw images, characterizing mass segregation in globular clusters, and simulating photometry completeness.
+          Duties involved faculty-guided independent research into analytical methods used in astronomy, presenting findings, and attending workshops/discussions.
+      - position: Teaching Intern
+        dates: 2014 - 2016
+        company: University of Rochester
+        details: >-
+          Led undergraduate physics workshops in various topics including mechanics, dynamics, and electricity & magnetism.
+          Primary responsibilities included meeting with faculty to plan workshop materials, leading discussions of problems, and supervising/grading exams and homework.
+  # projects:
+  #   enable: true
+  #   icon: fa-archive
+  #   title: Projects
+  #   intro: >-
+  #     **You can list your side projects or open source libraries in this
+  #     section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  #     Vestibulum et ligula in nunc bibendum fringilla a eu lectus
+  #   list:
+  #     - title: Title
+  #       url: 'url'
+  #       tagline: >-
+  #         multiline
+  #         tagline
+  skills:
+    enable: true
+    icon: fa-rocket
+    title: Skills & Proficiency
+    list:
+      - skill: R
+        level: 95%
+      - skill: Data Visualization/ Communication
+        level: 92.5%
+      - skill: latex
+        level: 90%
+      - skill: Cluster Computing (HTC/HPC)
+        level: 80%
+      - skill: GitHub/GitLab
+        level: 77.5%
+      - skill: R Shiny apps
+        level: 75%
+      - skill: MS Office
+        level: 70%
+      - skill: Hugo
+        level: 60%
+  footer:
+    copyright: >-
+      Designed by [Xiaoying Riley](https://github.com/xriley/Orbit-Theme) &amp;
+      ported by [Pavel Kanyshev](https://github.com/aerohub/hugo-orbit-theme).
