@@ -1,5 +1,5 @@
 # Page settings
-baseurl: http://thestatsgu.ru/cv
+baseurl: https://thestatsgu.ru/cv/
 publishDir: docs/cv
 languageCode: en-us
 title: Bi Cheng Wu CV
