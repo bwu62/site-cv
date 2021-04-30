@@ -2,7 +2,7 @@
 baseurl: https://thestatsgu.ru/cv/
 publishDir: docs/cv
 languageCode: en-us
-title: "TheStatsGuru - CV"
+title: Bi Cheng Wu CV
 theme: hugo-orbit-theme
 googleAnalytics: G-RYQM737XWN
 
@@ -12,7 +12,9 @@ disableSitemap: yes
 disable404: yes
 
 params:
-
+  
+  title: Bi Cheng Wu - CV
+  
   # Theme styles
   # The original template comes with 6 colour schemes. You may choose styles below.
   # "styles.css", "styles-2.css", "styles-3.css", ..., "styles-6.css"
