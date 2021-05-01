@@ -105,7 +105,7 @@ params:
   jobs:
     list:
       - position: Associate Lecturer
-        dates: 2021 - present
+        dates: 2021 – present
         company: 'University of Wisconsin—Madison'
         details: >-
           Codeveloping and teaching new statistics course for data science students.
@@ -128,7 +128,7 @@ params:
               
           2018 Graduate Teaching Assistant Award Honorable Mention
       - position: Research Assistant
-        dates: 2015 - 2017
+        dates: 2015 – 2017
         company: University of Rochester
         details: >-
           (with Segev BenZvi)
@@ -142,7 +142,7 @@ params:
           Studied Hubble Space Telescope data, including processing raw images, characterizing mass segregation in globular clusters, and simulating photometry completeness.
           Duties involved faculty-guided independent research into analytical methods used in astronomy, presenting findings, and attending workshops/discussions.
       - position: Teaching Intern
-        dates: 2014 - 2016
+        dates: 2014 – 2016
         company: University of Rochester
         details: >-
           Led undergraduate physics workshops in various topics including mechanics, dynamics, and electricity & magnetism.
