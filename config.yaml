@@ -52,10 +52,10 @@ params:
     list:
       - degree: MS in Statistics
         college: University of Wisconsin—Madison
-        dates: 2017-2020
+        dates: 2017—2020
       - degree: BS in Math, Physics
         college: University of Rochester
-        dates: 2013-2017
+        dates: 2013—2017
   awards:
     enable: true
     title: Awards
@@ -85,7 +85,9 @@ params:
     list:
       - interest: Archery
       - interest: Backgammon
+      - interest: Chess
       - interest: Foreign films
+      - interest: Minigolf
       - interest: Skateboarding
   summary:
     enable: true
@@ -114,6 +116,7 @@ params:
               
           Duties include writing new course materials, facilitating online teaching,
           monitoring student engagement, coordinating TAs, and overseeing grading.
+          
       - position: Teaching Assistant
         dates: 2017 – 2020
         company: University of Wisconsin—Madison
@@ -126,27 +129,63 @@ params:
           Assisted instructors with course planning, grade management,
           technical support, and other administrative duties.    
               
-          2018 Graduate Teaching Assistant Award Honorable Mention
+          2018 Graduate Teaching Assistant Award Runner-up
+          
+      - position: Research Assistant
+        dates: 2018 – 2019
+        company: University of Wisconsin—Madison (w/ Dr. Zhengzheng Tang)
+        details: >-
+          Studied microbiome statistics. Projects included identifying 
+          abundance changes in compositional data, community detection 
+          in correlated networks, high-dimensional microbiome mediators, 
+          and high-throughput computing methods.
+          
       - position: Research Assistant
         dates: 2015 – 2017
-        company: University of Rochester
+        company: University of Rochester (w/ Dr. Segev BenZvi)
         details: >-
-          (with Segev BenZvi)
-          Involved in the High-Altitude Water Cherenkov (HAWC) experiment (gamma/cosmic ray detector), and IceCube (Antarctic neutrino observatory) on event detection related projects, including Monte-Carlo simulations, real-time signal processing, and machine learning classifiers.
-          Duties included working with collaborators to visualize data, testing new methods of analysis, and drafting & presenting reports of findings to researchers and colleagues.
+          Involved in the High-Altitude Water Cherenkov (HAWC) experiment 
+          (gamma/cosmic ray detector), and IceCube (Antarctic neutrino 
+          observatory) on event detection related projects, including 
+          Monte-Carlo simulations, real-time signal processing, and 
+          machine learning classifiers.    
+              
+          Duties included working with collaborators to visualize data, 
+          testing new methods of analysis, and drafting & 
+          presenting reports of findings to researchers and colleagues.
+          
       - position: Research Intern
         dates: 2016 summer
-        company: University of British Columbia
+        company: University of British Columbia (w/ Dr. Harvey Richer)
         details: >-
-          (with Harvey Richer, PhD. at )
-          Studied Hubble Space Telescope data, including processing raw images, characterizing mass segregation in globular clusters, and simulating photometry completeness.
-          Duties involved faculty-guided independent research into analytical methods used in astronomy, presenting findings, and attending workshops/discussions.
+          Studied Hubble Space Telescope data, including processing raw images, 
+          characterizing mass segregation in globular clusters, and simulating 
+          photometry completeness.    
+              
+          Duties involved faculty-guided independent research into analytical 
+          methods used in astronomy, presenting findings, and attending 
+          analytical training workshops.
+          
       - position: Teaching Intern
         dates: 2014 – 2016
         company: University of Rochester
         details: >-
-          Led undergraduate physics workshops in various topics including mechanics, dynamics, and electricity & magnetism.
-          Primary responsibilities included meeting with faculty to plan workshop materials, leading discussions of problems, and supervising/grading exams and homework.
+          Led undergraduate physics workshops in various topics including 
+          mechanics, dynamics, and electricity & magnetism.    
+              
+          Primary responsibilities included meeting with faculty to 
+          plan workshop materials, leading discussions of problems, and 
+          supervising/grading exams and homework.
+          
+      - position: Volunteer Treasurer
+        dates: 2009 – 2013
+        company: Canadian Red Cross H.E.L.P Depot
+        details: >-
+          Responsible for overseeing secure collection and organization of 
+          donation revenue, preparing and submitting bank deposits, 
+          reconciling and maintaining digital transaction databases, and 
+          synchronization of financial reports with regional office.
+          
   # projects:
   #   enable: true
   #   icon: fa-archive
@@ -168,7 +207,7 @@ params:
     list:
       - skill: R
         level: 95%
-      - skill: Data Visualization/ Communication
+      - skill: Data Visualization/​Communication
         level: 92.5%
       - skill: latex
         level: 90%
